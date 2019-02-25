@@ -12,3 +12,30 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.navbar-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.border-color-1 {
+    border-color: #e9ecef;
+}
+
+a.thumbnail {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    display: block;
+    padding: 2px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.caption {
+    padding: 9px;
+    color: #333;
+}
