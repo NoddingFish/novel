@@ -19,9 +19,9 @@ class CreateChapterTable extends Migration
             $table->string('title', 255);
             $table->integer('novel_id');
             $table->integer('content_id');
-            $table->tinyInteger('is_delete');
             $table->integer('words');
             $table->text('content');
+            $table->tinyInteger('deleted_at');//是否删除
             $table->timestamps();
         });
     }

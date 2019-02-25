@@ -20,6 +20,7 @@ class CreateNovelsTable extends Migration
             $table->string('author', 16);
             $table->string('novel_type', 16);//小说类型
             $table->string('tags', 255);//小说标签
+            $table->string('url', 255);//爬虫原链接
             $table->timestamps();
         });
     }
