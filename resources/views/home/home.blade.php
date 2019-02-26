@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="col-sm-4 pl-4">
-            <ul class="row-sm-12 nav nav-tabs" id="myTab" role="tablist">
+            <ul class="row nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item col-sm-6 p-0">
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
                        aria-controls="home" aria-selected="true">本月热门小说</a>
@@ -36,18 +36,18 @@
                        aria-controls="contact" aria-selected="false">最新</a>
                 </li>
             </ul>
-            <div class="row-sm-12 tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row tab-content" id="myTabContent">
+                <div class="col p-0 tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     @for($a = 0; $a < 15; $a++)
                         @include('shared._right_novel', ['key' => $a])
                     @endfor
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="col p-0 tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     @for($a = 0; $a < 12; $a++)
                         @include('shared._right_novel', ['key' => $a])
                     @endfor
                 </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="col p-0 tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                     @for($a = 0; $a < 10; $a++)
                         @include('shared._right_novel', ['key' => $a])
                     @endfor
