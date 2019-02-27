@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomeController@home')->name('home');
+Route::get('classify', 'NovelsController@classify')->name('classify');
