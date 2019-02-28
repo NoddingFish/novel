@@ -10,4 +10,9 @@ class NovelsController extends Controller
     {
         return view('home.classify');
     }
+
+    public function detail()
+    {
+        return view('novel.detail');
+    }
 }
