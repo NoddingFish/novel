@@ -12,7 +12,7 @@
             </nav>
         </div>
     </div>
-    <div class="row border border-info p-2 bg-light rounded">
+    <div class="row border border-secondary p-2 bg-light rounded mb-2">
         <div class="col-2">
             <img src="http://www.woyaodu.com/files/article/image/0/4/4s.jpg" class="img-fluid" alt="Responsive image">
         </div>
@@ -35,5 +35,28 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="row border border-info p-2 bg-light rounded">
+        <table class="col p-0 table">
+            <thead>
+            <tr class="table-primary">
+                <th colspan="7">
+                    <img src="/open-iconic/svg/sort-descending.svg" alt="sort-descending" style="width: 16px;height: 16px;">
+                    <h5 class="d-inline" style="vertical-align: middle;">《二婚甜蜜蜜》全部章节目录</h5>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            @for($i = 0; $i < 12; $i++)
+                <tr>
+                    <td class="table-sm"><a href="#">第1章 跟你滚一滚</a></td>
+                    <td class="table-sm"><a href="#">第2章 重口味哦</a></td>
+                    <td class="table-sm"><a href="#">第3章 好想试试哦</a></td>
+                    <td class="table-sm"><a href="#">第4章 怒火中烧</a></td>
+                </tr>
+            @endfor
+            </tbody>
+        </table>
     </div>
 @endsection
