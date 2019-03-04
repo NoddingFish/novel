@@ -15,4 +15,9 @@ class NovelsController extends Controller
     {
         return view('novel.detail');
     }
+
+    public function show()
+    {
+        return view('novel.show');
+    }
 }

@@ -50,10 +50,10 @@
             <tbody>
             @for($i = 0; $i < 12; $i++)
                 <tr>
-                    <td class="table-sm"><a href="#">第1章 跟你滚一滚</a></td>
-                    <td class="table-sm"><a href="#">第2章 重口味哦</a></td>
-                    <td class="table-sm"><a href="#">第3章 好想试试哦</a></td>
-                    <td class="table-sm"><a href="#">第4章 怒火中烧</a></td>
+                    <td class="table-sm"><a class="text-dark" href="{{ route('show') }}">第1章 跟你滚一滚</a></td>
+                    <td class="table-sm"><a class="text-dark" href="{{ route('show') }}">第2章 重口味哦</a></td>
+                    <td class="table-sm"><a class="text-dark" href="{{ route('show') }}">第3章 好想试试哦</a></td>
+                    <td class="table-sm"><a class="text-dark" href="{{ route('show') }}">第4章 怒火中烧</a></td>
                 </tr>
             @endfor
             </tbody>
